@@ -1,0 +1,31 @@
+{
+  "name": "endlessmiles/polyline",
+  "description": "A comopser package to decode Google Polyline strings into an array of latlng pairs.",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EndlessMiles\\Polyline\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EndlessMiles\\Polyline\\PolylineServiceProvider"
+      ],
+      "aliases": {
+        "Polyline": "EndlessMiles\\Polyline\\PolylineFacade"
+      }
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marco Caspers",
+      "email": "mail@marcocaspers.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
