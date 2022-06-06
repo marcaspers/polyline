@@ -4,7 +4,7 @@ A Laravel composer package to decode Google Polyline strings into an array of GP
 ## Installation
 Run the following command in the root of your project directory:
 ```shell
-composer require endlessmiles/polyline-decoder
+composer require endlessmiles/polyline
 ```
 
 ## Use
